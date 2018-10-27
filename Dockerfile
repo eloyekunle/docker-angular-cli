@@ -1,6 +1,6 @@
-FROM node:8.12-alpine as node-angular-cli
+FROM node:10-alpine as node-angular-cli
 
-LABEL authors="John Papa"
+LABEL authors="Elijah Oyekunle"
 
 #Linux setup
 RUN apk update \
@@ -10,5 +10,5 @@ RUN apk update \
   && npm cache verify \
   && sed -i -e "s/bin\/ash/bin\/sh/" /etc/passwd
 
-#Angular CLI
-RUN npm install -g @angular/cli
+# Install Angular CLI, Serve
+RUN npm install -g serve @angular/cli
