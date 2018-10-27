@@ -1,17 +1,17 @@
 # Dockerfile with Angular CLI
 
-Node 8.12 + Angular CLI 6.2.0+
+Node 10.12 + Angular CLI 7.0.3 + Serve 10.0.2
 
-Find [the image here](https://hub.docker.com/r/johnpapa/angular-cli/)
+Find [the image here](https://hub.docker.com/r/playmice/docker-angular-cli/)
 
 Pulling the image
 
 ```bash
-docker pull johnpapa/angular-cli
+docker pull playmice/docker-angular-cli
 ```
 
 Using the image in a `Dockerfile`
 
 ```bash
-FROM johnpapa/angular-cli
+FROM playmice/docker-angular-cli
 ```
