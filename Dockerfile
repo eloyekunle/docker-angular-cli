@@ -1,4 +1,4 @@
-FROM node:10-alpine as node-angular-cli
+FROM node:alpine as node-angular-cli
 
 LABEL authors="Elijah Oyekunle"
 

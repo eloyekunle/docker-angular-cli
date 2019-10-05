@@ -1,6 +1,6 @@
 # Dockerfile with Angular CLI
 
-Node 10.12 + Angular CLI 7.0.3 + Serve 10.0.2
+Latest Node + Latest Angular CLI + Latest Serve
 
 Find [the image here](https://hub.docker.com/r/playmice/docker-angular-cli/)
 
